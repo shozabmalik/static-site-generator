@@ -19,11 +19,14 @@ This module defines a class HTMLParser which serves as the basis for parsing tex
 An HTMLParser instance is fed HTML data and calls handler methods when start tags, end tags, text, comments, and other markup elements are encountered. The user should subclass HTMLParser and override its methods to implement the desired behavior
 
 
+**import argparse
+
+ argparse is a module that reads command-line arguments and puts them in the program as variables to interact with.
+
+
 **from html_content_spec import content_spec, _ANY_CONTENT, _NO_CONTENT**
 
-Not sure what this does
-
-imports from html_content_spec.py
+ This import receives the key:value pairs from html_content_spec.py for info look-ups on existing tags.
 
 
 **Class OurHTMLParser**    
