@@ -5,6 +5,8 @@ Useful Resources:
 
 - Understanding Super (https://realpython.com/python-super/)
 
+- Argeparse - (https://docs.python.org/3/library/argparse.html)
+
 -
 
 Understanding Sections of code:
@@ -22,7 +24,7 @@ An HTMLParser instance is fed HTML data and calls handler methods when start tag
 Not sure what this does
 
 
-**Class OurHTMlParser**    
+**Class OurHTMLParser**    
 
 Class OurHTMLParser is the descendant of HTMLParser and only overrides necessary methods
 
